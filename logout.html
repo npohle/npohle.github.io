@@ -10,13 +10,17 @@
 	Logout
 	<script>
 
-		var clientId = "QOMpNae4NcX7ZhgfayFW0jN8gkO5Iazd";
-		var domain = "imaginarymachines.eu.auth0.com";
-		
-		webAuth.logout({
-		  returnTo: 'login.html',
-		  clientID: clientId
-		});
+	var clientId = "QOMpNae4NcX7ZhgfayFW0jN8gkO5Iazd";
+	var domain = "imaginarymachines.eu.auth0.com";
+
+	var webAuth = new auth0.WebAuth({
+		domain: 'imaginarymachines.eu.auth0.com',
+		clientID: 'QOMpNae4NcX7ZhgfayFW0jN8gkO5Iazd'
+	});
+	webAuth.logout({
+		returnTo: 'login.html',
+		clientID: clientId
+	});
 	    
     </script>
 </body>
