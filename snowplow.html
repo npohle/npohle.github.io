@@ -36,9 +36,9 @@
 
         window.snowplow('newTracker', 'oneMarketingSnowplow', 'api.grnry.io/dev-v1', {
             appId: 'cfe23a',
-            platform: 'mob',
+            platform: 'web'
             //post: true,
-            stateStorageStrategy: 'localStorage'
+            //stateStorageStrategy: 'localStorage'
         });
 
         // first ping would occur after 12 seconds, and subsequent pings every 10 seconds as long as the user continued to browse the page actively
@@ -48,8 +48,8 @@
 
         window.snowplow('enableLinkClickTracking');
 
-        //window.snowplow('enableFormTracking');
-        window.newTracker('enableFormTracking');
+        window.snowplow('enableFormTracking');
+        //window.newTracker('enableFormTracking');
 
         // window.snowplow('');
     }
