@@ -5,6 +5,13 @@
 <body>
     <h1>Snowplow Forms Test</h1>
 
+    <form id="myFormId" action="https://allianz-emea-63-dev07.adobecqms.net" method="get">
+    <a href="#link1">test link 1</a><br>
+    <a href="#link2">test link 2</a><br>
+    <input id="idOfInput" name="nameOfInput" value="defaultText">
+    <button type="submit">Submit</button>
+    </form>
+    
 <script>
         function preparePage() {
         var div = document.createElement('div');
@@ -47,7 +54,7 @@
     }
 
 
-    preparePage();
+    //preparePage();
     loadSnowplow();
 </script>    
 </body>
