@@ -16,15 +16,16 @@
     
 <script>
         function preparePage() {
+        
+        var html =  '<form id="myFormId" action="https://allianz-emea-63-dev07.adobecqms.net" method="get">';
+        html += '<a href="#link1">test link 1</a><br>';
+        html += '<a href="#link2">test link 2</a><br>';
+        html += '<input id="idOfInput" name="nameOfInput" value="defaultText">';
+        html += '<button type="submit">Submit</button>';
+        html += '</form>';
+        
         var div = document.createElement('div');
-
-        div.innerHTML = '<form id="myFormId" action="https://allianz-emea-63-dev07.adobecqms.net" method="get">';
-        div.innerHTML += '<a href="#link1">test link 1</a><br>';
-        div.innerHTML += '<a href="#link2">test link 2</a><br>';
-        div.innerHTML += '<input id="idOfInput" name="nameOfInput" value="defaultText">';
-        div.innerHTML += '<button type="submit">Submit</button>';
-        div.innerHTML += '</form>';
-
+        div.innerHTML = html;
         document.body.appendChild(div);
     }
 
