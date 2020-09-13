@@ -112,14 +112,14 @@ hero_product_background_image_btn_one_link: '#'
 hero_product_background_image_btn_one_text:  'Browse free demo'
 
 # product_fixed_image
-hero_product_fixed_image_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_product_fixed_image_image: 'img/iPhoneX.png'
+hero_product_fixed_image_name: 'Cost-effective <br> Digital Signage Solutions' 
+hero_product_fixed_image_text: 'Battery powered, connected, interactive: E-Paper screens that presents information and blend with their environment. Show the booking status of a conference room. Put a connected online calendar on your desk. Check and tick off todos using a dedicated screen.'
+hero_product_fixed_image_image: 'img/hero/hero-dashboard-free.png'
 hero_product_fixed_image_btn_one_link: '#'
 hero_product_fixed_image_btn_one_text:  'Browse free demo'
 
 # product_slider
-hero_product_slider_name: 'The most Creative <br> Theame ever in Business' 
+hero_product_slider_name: 'The most cost-effective <br> Digital Signage Solution' 
 hero_product_slider_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
 hero_product_slider_image: 'img/iPhoneX.png'
 hero_product_slider_btn_one_link: '#'
