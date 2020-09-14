@@ -111,7 +111,7 @@
 
 .version7 {
     .hero-section {
-        background: url(../img/hero/hero-bg7.png) no-repeat bottom center/cover;
+        background: url(../img/hero/hero-bg7-removed.png) no-repeat bottom center/cover;
         background-size: 100% 100%;
         .content-wrap {
             h1 {
@@ -677,7 +677,7 @@
     top: -225px;
     width: 64%;
     @media(max-width: 1440px) {
-        width: 48%;
+        width: 80%;
     }
     @media(max-width:992px) {
         display: none;
